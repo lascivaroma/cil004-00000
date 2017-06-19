@@ -3,6 +3,10 @@ Pompei Inscriptions Corpus for CapiTainS
 
 [![Build Status](https://travis-ci.org/lascivaroma/cil004-00000.svg?branch=master)](https://travis-ci.org/lascivaroma/cil004-00000)
 
+## How to cite
+
+Check our releases. Each release comes with a Zenodo tag !
+
 ## Origin of the data and acknowledgment
 
 The source of the data are : 

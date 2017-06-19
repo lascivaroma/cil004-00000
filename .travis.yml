@@ -18,7 +18,7 @@ before_deploy:
   - export GIT_TAG=$major_version.$minor_version.$TRAVIS_BUILD_NUMBER
   - git add -A
   - git commit -m "Removed failing files" -m "Release $GIT_TAG"
-  - git tag $GIT_TAG -a -m "$DATE" -m "PASSING FILES" -m "$results"
+  - git tag $GIT_TAG -a -m "$DATE"
   - git push -q https://$GITPERM@github.com/lascivaroma/cil004-00000 --tags
 
 deploy:
